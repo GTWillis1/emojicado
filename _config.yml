@@ -9,14 +9,14 @@ baseurl: "http://emojicado.com"
 logo: /images/logo.png
 description: Food from the emojisphere.
 author: Mark Malstrom
-  name: Mark Malstrom
+  # name: Mark Malstrom
   email: malstrommark@gmail.com
   twitter: markmalstrom # twitter username without the @ symbol
 
 # -----
 # Build
 
-# timezone: Etc/UTC
+timezone: Etc/UTC
 
 paginate: 10
 paginate_path: "/:num/"
