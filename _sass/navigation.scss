@@ -1,0 +1,33 @@
+nav {
+	position: fixed;
+	width: 100%;
+	display: flex;
+	justify-content: left;
+	padding-left: 3%;
+	padding: 0;
+	background: #fff;
+	z-index: 999;
+	outline: 1pt solid rgba($color: #000000, $alpha: 0.15);
+	// margin-bottom: 80px;
+
+	a {
+		display: inline-block;
+		text-decoration: none;
+		padding: 12px;
+		// color: #444;
+		// text-transform: uppercase;
+		// letter-spacing: 1px;
+		// font-size: .9em;
+
+		// &.active {
+		// 	color: #888;
+		// }
+
+		&:hover {
+			// color: #000;
+			opacity: 0.75;
+		}
+	}
+}
+
+

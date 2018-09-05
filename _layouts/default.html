@@ -1,0 +1,48 @@
+<!doctype html>
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta property="og:title" content="Emojicado" />
+		<meta property="og:locale" content="en_US" />
+		<meta name="description" content="Recipes from the emojisphere." />
+		<meta property="og:description" content="Recipes from the emojisphere." />
+		<link rel="canonical" href="http://emojicado.com/" />
+		<meta property="og:url" content="http://emojicado.com/" />
+		<meta property="og:site_name" content="Emojicado" />
+		
+		{% if page.title == "Emojicado" %}
+			<title>{{ page.title }}</title>
+		{% else %}
+			<title>Emojicado | {{ page.title }}</title>
+		{% endif %}
+		
+		{% feed_meta %}
+
+		<link href="//fonts.googleapis.com/css?family=Antic+Slab|Fira+Sans" rel="stylesheet">
+		<link rel="stylesheet" media="screen" href="{{ site.baseurl }}/css/screen.css">
+		{% if page.print_stylesheet %}
+			<link rel="stylesheet" media="print" href="{{ site.baseurl }}/css/print.css">
+		{% endif %}
+		<link rel="icon" type="image/png" href="{{ site.baseurl }}/images/favicon.ico">
+	</head>
+	<body>
+		<nav>
+			<a href="{{ site.baseurl }}/">
+				<img src="{{ site.baseurl }}/images/logo-circle.png" alt="Emojicado logo" height="30" width="30">
+			</a>
+		</nav>
+		<header></header>
+		<div class="container main-content">
+			<section class="content">{{ content }}</section>
+			{% include sidebar.html %}
+		</div>
+		<footer>
+			<div class="container">
+				<hr>
+				&copy; Mark Malstrom {{ site.time | date: "%Y" }}. All rights reserved.
+			</div>
+		</footer>
+	</body>
+</html>
