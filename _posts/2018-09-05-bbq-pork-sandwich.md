@@ -10,7 +10,7 @@ recipe:
   prep: 15 minutes
   cook: 15 minutes
   ingredients_markdown: |-
-    * 12 slices of bacon, finely minced
+    * 12 thick slices of bacon, finely minced
     * 4-6 pork chops, finely minced
     * 1 shallot, peeled and finely chopped
     * 1 tsp smoked paprika

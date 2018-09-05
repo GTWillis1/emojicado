@@ -2,8 +2,8 @@
 # Site
 
 title: Emojicado
-url: "http://emojicado.com"
-baseurl: "http://emojicado.com"
+# url: "http://emojicado.com"
+# baseurl: "http://emojicado.com"
 
 # -----
 # Build

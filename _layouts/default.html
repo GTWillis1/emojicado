@@ -4,23 +4,28 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<meta property="og:title" content="Emojicado" />
 		<meta property="og:locale" content="en_US" />
 		<meta name="description" content="Recipes from the emojisphere." />
 		<meta property="og:description" content="Recipes from the emojisphere." />
 		<link rel="canonical" href="http://emojicado.com/" />
-		<meta property="og:url" content="http://emojicado.com/" />
 		<meta property="og:site_name" content="Emojicado" />
 		
 		{% if page.title == "Emojicado" %}
 			<title>{{ page.title }}</title>
+			<meta property="og:title" content="{{ page.title }}" />
+			<meta property="og:image" content="{{ site.baseurl }}/images/logo.png" />
+			<meta property="og:url" content="http://emojicado.com/" />
 		{% else %}
-			<title>Emojicado | {{ page.title }}</title>
+			<title>{{ page.title }} | Emojicado</title>
+			<meta property="og:title" content="{{ page.title }} | Emojicado" />
+			<meta property="og:image" content="{{ page.featured_image }}" />
+			<meta property="og:url" content="http://emojicado.com/" />
 		{% endif %}
 		
 		{% feed_meta %}
 
-		<link href="//fonts.googleapis.com/css?family=Antic+Slab|Fira+Sans" rel="stylesheet">
+		<!-- <link href="//fonts.googleapis.com/css?family=Antic+Slab|Fira+Sans" rel="stylesheet"> -->
+		<link href="https://fonts.googleapis.com/css?family=Noto+Serif:400,400i,700,700i|Vollkorn:900" rel="stylesheet">
 		<link rel="stylesheet" media="screen" href="{{ site.baseurl }}/css/screen.css">
 		{% if page.print_stylesheet %}
 			<link rel="stylesheet" media="print" href="{{ site.baseurl }}/css/print.css">
@@ -28,11 +33,11 @@
 		<link rel="icon" type="image/png" href="{{ site.baseurl }}/images/favicon.ico">
 	</head>
 	<body>
-		<nav>
+		<!-- <nav>
 			<a href="{{ site.baseurl }}/">
 				<img src="{{ site.baseurl }}/images/logo-circle.png" alt="Emojicado logo" height="30" width="30">
 			</a>
-		</nav>
+		</nav> -->
 		<header></header>
 		<div class="container main-content">
 			<section class="content">{{ content }}</section>

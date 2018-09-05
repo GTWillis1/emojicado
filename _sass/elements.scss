@@ -5,13 +5,14 @@ html , body {
 }
 
 body, input, textarea {
-	font-family: 'Fira Sans', sans-serif;
+	font-family: 'Noto Serif', serif;
 	color: #222;
 	-webkit-font-smoothing: antialiased;
 }
 
 h1 {
-	font-size: 1.8em;
+	font-family: 'Vollkorn', serif;
+	font-size: 2em;
 	margin: 0;
 	padding: 0;
 	line-height: 1.3em;
@@ -27,7 +28,7 @@ time {
 
 header {
 	text-align: center;
-	padding: 50px 0 50px 0;
+	padding: 0 0 30px 0;
 }
 
 img {
@@ -52,9 +53,10 @@ hr {
 
 a {
 	text-decoration: none;
-	color: #7CB53F;
+	color: $green;
 
 	&:hover {
 		text-decoration: underline;
+		color: darken($color: $green, $amount: 15%);
 	}
 }
