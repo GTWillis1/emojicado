@@ -8,7 +8,9 @@ featured_image: ../../../../images/recipes/smoky-pork-burger-fennel-superJumbo.j
 recipe:
   servings: 6-10 sandwiches
   prep: 15 minutes
+  prep-time: PT15M
   cook: 15 minutes
+  cook-time: PT15M
   ingredients_markdown: |-
     * 12 thick slices of bacon, finely minced
     * 4-6 pork chops, finely minced

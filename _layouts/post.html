@@ -12,9 +12,9 @@ layout: default
 	</div>
 
 	<ul id="recipe" class="recipe-overview">
-		<li title="Servings">{% include recipe-icon.html icon="quantity" %}<span>{{ page.recipe.servings }}</span></li>
-		<li title="Prep Time">{% include recipe-icon.html icon="time" %}<span>{{ page.recipe.prep }}</span></li>
-		<li title="Cook Time">{% include recipe-icon.html icon="cook" %}<span>{{ page.recipe.cook }}</span></li>
+		<li title="Servings"><meta itemprop="recipeYield" content="{{ page.recipe.servings }}">{% include recipe-icon.html icon="quantity" %}<span>{{ page.recipe.servings }}</span></li>
+		<li title="Prep Time"><meta itemprop="prepTime" content="{{ page.recipe.prep-time }}">{% include recipe-icon.html icon="time" %}<span>{{ page.recipe.prep }}</span></li>
+		<li title="Cook Time"><meta itemprop="cookTime" content="{{ page.recipe.cook-time }}">{% include recipe-icon.html icon="cook" %}<span>{{ page.recipe.cook }}</span></li>
 	</ul>
 
 	<div class="recipe-contents">

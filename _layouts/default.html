@@ -4,12 +4,7 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<meta property="og:locale" content="en_US" />
-		<meta name="description" content="Recipes from the emojisphere." />
-		<meta property="og:description" content="Recipes from the emojisphere." />
-		<link rel="canonical" href="http://emojicado.com/" />
-		<meta property="og:site_name" content="Emojicado" />
-		
+
 		{% if page.title == "Emojicado" %}
 			<title>{{ page.title }}</title>
 			<meta property="og:title" content="{{ page.title }}" />
@@ -21,6 +16,17 @@
 			<meta property="og:image" content="{{ page.featured_image }}" />
 			<meta property="og:url" content="http://emojicado.com/" />
 		{% endif %}
+
+		<meta property="og:locale" content="en_US" />
+		<meta name="description" content="Recipes from the emojisphere." />
+		<meta property="og:description" content="Recipes from the emojisphere." />
+		<link rel="canonical" href="http://emojicado.com/" />
+		<meta property="og:site_name" content="Emojicado" />
+
+		<link rel="apple-touch-icon" href="/images/touch-icon-iphone.png">
+		<link rel="apple-touch-icon" sizes="152x152" href="/images/touch-icon-ipad.png">
+		<link rel="apple-touch-icon" sizes="180x180" href="/images/touch-icon-iphone-retina.png">
+		<link rel="apple-touch-icon" sizes="167x167" href="/images/touch-icon-ipad-retina.png">
 		
 		{% feed_meta %}
 

@@ -71,7 +71,7 @@ a {
   padding: 0 0 20px 0;
   display: block; }
 .post .recipe-overview {
-  padding: 0;
+  padding: 6% 0 6% 15pt;
   margin: 0; }
   .post .recipe-overview svg {
     position: relative;

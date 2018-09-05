@@ -8,7 +8,7 @@ title: Emojicado
 # -----
 # Build
 
-timezone: Etc/UTC
+# timezone: Etc/UTC
 
 paginate: 10
 paginate_path: "/:num/"
