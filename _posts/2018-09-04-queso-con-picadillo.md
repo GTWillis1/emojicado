@@ -4,7 +4,7 @@ title: Queso con Picadillo
 # categories:
 #   - Beef
 #   - Mexican
-featured_image: ../../../../images/recipes/queso-con-picadillo/queso.jpg
+featured_image: ../../../../images/recipes/queso.jpg
 recipe:
   servings: 8 bowls
   prep: 30 minutes
