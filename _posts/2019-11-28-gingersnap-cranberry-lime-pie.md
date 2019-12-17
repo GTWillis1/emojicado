@@ -35,7 +35,7 @@ recipe:
     * ¼ tsp kosher salt
     * ¾ cup butter, room temperature, cut into 1/2 inch cubes
 
-    ** Orange-cinnamon whipped cream for serving (optional)**
+    **Orange-cinnamon whipped cream for serving** (optional)
 
     * ½ cup heavy whipping cream
     * 1-2 tbsp light brown sugar
@@ -57,7 +57,8 @@ recipe:
     2. Place cranberry purée, eggs, egg yolks, lime zest, lime juice, salt and ½ cup sugar into the top pot of a double boiler. If you don't have a double boiler, use a heatproof bowl placed over a saucepan of simmering water, ensuring that the bottom of the bowl does not touch the water. Stir gently to combine ingredients. Assemble double boiler and cook curd, stirring frequently and scraping down sides often, until curd thickens and coats spatula, 8-10 minutes. Remove from heat and let cool until just warm.
     3. Using an electric mixer on medium-high, beat curd. Add butter a piece at a time, incorporating after each addition, until curd is lighter in color and texture. Pour into crust and chill until firm, about 2 hours.
 
-    **Toppings: (Optional)**
+    **Toppings:** (optional)
+
     1. Simmer reserved cranberries in simple syrup until just soft, about 1 minute. If the berries begin to burst, remove from heat. Place on a wire rack and refrigerate 30 minutes. Combine ¼ cup sugar and 1 tsp lime zest in a small bowl. Remove cranberries from fridge and roll in sugar-zest mixture. Serve topped on pie (be sure to let the curd finish chilling before placing the berries on top).
     2. Chill non-reactive mixing bowl and mixer beaters in freezer for at least 20 minutes. Remove from freezer, add cream, brown sugar, cinnamon, orange zest, vanilla, and triple sec to bowl, and beat on high just until stiff peaks begin to form. Serve alongside pie.
 
